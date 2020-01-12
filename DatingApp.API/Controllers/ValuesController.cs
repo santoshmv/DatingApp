@@ -20,6 +20,8 @@ namespace DatingApp.API.Controllers
             _context = context;
 
         }
+
+        [AllowAnonymous]
         // GET api/values
         [HttpGet]
         //original code
